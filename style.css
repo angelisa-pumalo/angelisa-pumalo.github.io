@@ -1,10 +1,48 @@
-git status:root {
+:root {
     --dark-purple: #24113d;
     --purple: #7041a6;
-    --light-purple: #d9c2fo;
+    --light-purple: #d9c2f0;
     --background: #f8f5fc;
     --text-color: #302641;
     --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: var(--background);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 15px 10%;
+    background: var(--dark-purple);
+    color: var(--white);
+}
+
+.navbar a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: var(--light-purple);
 }
 
 .hero {
