@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Basic Java Programming",
+    "description": "A beginner programming activity using Java.",
+    "technologies": "Java",
+    "role": "Student",
+    "screenshot": "java-project.png",
+    "link": "https://github.com/angelisa-pumalo"
+  },
+  {
+    "title": "Network Cabling Activity",
+    "description": "A networking activity involving network cables and RJ45 connectors.",
+    "technologies": "Cisco Packet Tracer, Networking",
+    "role": "Student",
+    "screenshot": "network-project.png",
+    "link": "https://github.com/angelisa-pumalo"
+  },
+  {
+    "title": "Personal Portfolio Website",
+    "description": "A personal portfolio website created using HTML, CSS, JavaScript, and JSON.",
+    "technologies": "HTML, CSS, JavaScript, JSON",
+    "role": "Developer",
+    "screenshot": "portfolio-project.png",
+    "link": "https://github.com/angelisa-pumalo"
+  }
+]
